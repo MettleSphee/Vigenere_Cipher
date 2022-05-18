@@ -1,0 +1,17 @@
+<html>
+	<body style="width: 500px;">
+	
+	<br>text:<input type="text", id="txt", pattern="[a-zA-Z]", autofocus;/>
+	<br><br>key: <input type="text", id="key", pattern="[a-zA-Z]";/>
+	<br><br>
+	<select id="value">
+		<option value="encode" selected>Encode</option>
+		<option value="decode">Decode</option>
+	</select>
+	<input type="submit", onclick="process()"/>
+	<br><br>
+	<label for="result">result:</label><br>
+	<input type="textarea", name="result"/>
+	<script src='vigenere.js'></script>
+	</body>
+</html>
